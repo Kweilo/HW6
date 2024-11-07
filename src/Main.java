@@ -47,7 +47,8 @@ public class Main {
         }
         //Задание 10
         for(int i = 1; i <= 10; i = i + 1) {
-            System.out.println(i*2);
+            System.out.printf("2 * %d = %d", i, 2 * i);
+            System.out.println();
         }
     }
 }
